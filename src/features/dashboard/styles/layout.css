@@ -1,0 +1,40 @@
+#dashboard-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+#info-money-layout {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#list-transactions {
+  width: 100%;
+}
+
+#list-transactions-section {
+  padding: 2.5rem;
+}
+
+#list-transactions {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.item-transactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.lost-transaction {
+  color: #dc2626;
+}

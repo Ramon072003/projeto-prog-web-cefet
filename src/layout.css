@@ -1,0 +1,54 @@
+:root {
+  --sidebar-color: #1f2937;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-layout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#main-sidebar {
+  width: 20vw;
+  height: 100vh;
+  background-color: var(--sidebar-color);
+}
+
+#main-section {
+  width: 100vw;
+  height: 100vh;
+  padding: 4.5rem;
+  background-color: #f9fafb;
+}
+
+#links-main-sidebar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+  align-items: center;
+}
+
+#links-main-sidebar a {
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffff;
+}
+
+.title-sections {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Controle de Gastos</title>
+    <link rel="stylesheet" href="./layout.css" />
+    <link rel="stylesheet" href="./components/card/card.css" />
+    <link rel="stylesheet" href="./features/dashboard/styles/layout.css" />
+    <link rel="stylesheet" href="./components/button/button.css" />
+  </head>
+  <body>
+    <div id="main-layout">
+      <aside id="main-sidebar">
+        <nav style="margin: 2.3rem">
+          <ul id="links-main-sidebar">
+            <li>
+              <a href="./index.html">📊 Dashboard</a>
+            </li>
+            <li>
+              <a href="./features/new-transaction/new-transaction.html">
+                ➕ Nova Transação
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div id="main-section">
+        <h1 class="title-sections">Dashboard</h1>
+        <div id="dashboard-layout">
+          <div id="info-money-layout">
+            <div class="card">
+              <h3 class="title-card">Saldo Total</h3>
+              <div class="card-info-layout">
+                <span class="info-card" style="color: #16a34a"
+                  >R$ 1.500,00</span
+                >
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="title-card">Receitas</h3>
+              <div class="card-info-layout">
+                <span class="info-card" style="color: #16a34a"
+                  >R$ 2.500,00</span
+                >
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="title-card">Despesas</h3>
+              <div class="card-info-layout">
+                <span class="info-card" style="color: #dc2626"
+                  >R$ 1.200,00</span
+                >
+              </div>
+            </div>
+          </div>
+          <div id="recent-transactions">
+            <div class="card">
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 2.4rem;
+                "
+              >
+                <h3 class="title-card">Últimas Transações</h3>
+                <button class="button" type="button" style="font-size: 1.5rem">
+                  <a
+                    href="./features/new-transaction/new-transaction.html"
+                    target="_self"
+                  >
+                    + NOVA TRANSAÇÃO
+                  </a>
+                </button>
+              </div>
+              <div id="list-transactions-section">
+                <ul id="list-transactions">
+                  <li class="item-transactions">
+                    <p>SUPERMERCANDO</p>
+                    <p class="lost-transaction">-R$ 157,80</p>
+                  </li>
+                  <li class="item-transactions">
+                    <p>ACADEMIA</p>
+                    <p class="lost-transaction">-R$ 157,80</p>
+                  </li>
+                  <li class="item-transactions">
+                    <p>ESCOLA</p>
+                    <p class="lost-transaction">-R$ 157,80</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

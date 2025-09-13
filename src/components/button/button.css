@@ -1,0 +1,16 @@
+.button {
+  width: 21.5rem;
+  height: 4.4rem;
+  background-color: #2563eb;
+  border-radius: 0.5rem;
+  border: 0;
+  color: #ffff;
+  font-weight: bold;
+}
+
+.button a {
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  color: #ffff;
+}
