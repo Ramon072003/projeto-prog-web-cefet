@@ -16,17 +16,17 @@ html {
   display: flex;
   flex-direction: row;
   width: 100%;
+  min-height: 100vh;
 }
 
 #main-sidebar {
   width: 20vw;
-  height: 100vh;
   background-color: var(--sidebar-color);
 }
 
 #main-section {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: 4.5rem;
   background-color: #f9fafb;
 }

@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NOVA TRANSAÇÃO</title>
     <link rel="stylesheet" href="/src/layout.css" />
+    <link
+      rel="stylesheet"
+      href="/src/features/new-transaction/style/layout.css"
+    />
+    <link rel="stylesheet" href="/src/components/card/card.css" />
+    <link
+      rel="stylesheet"
+      href="/src/features/new-transaction/style/form.css"
+    />
+    <link rel="stylesheet" href="/src/components/button/button.css" />
+    <link rel="stylesheet" href="/src/components/input/input.css" />
   </head>
   <body>
     <div id="main-layout">
@@ -22,6 +33,44 @@
       </aside>
       <div id="main-section">
         <h1 class="title-sections">Nova Transação</h1>
+        <div id="new-transaction-layout">
+          <form action="" id="form-layout">
+            <fieldset style="padding: 2rem">
+              <legend class="title-card">📝 Dados da Transação</legend>
+              <div id="form-section">
+                <div id="checkbox-layout">
+                  <input type="checkbox" name="gain" />
+                  <label for="gain">Receita</label>
+                  <input type="checkbox" name="lost" />
+                  <label for="lost">Despesa</label>
+                </div>
+                <div id="section-date-value">
+                  <div class="section-input-label">
+                    <label>Valor</label>
+                    <input type="number" class="input" />
+                  </div>
+                  <div class="section-input-label">
+                    <label>Data</label>
+                    <input type="date" class="input" />
+                  </div>
+                </div>
+                <div id="description-section" class="section-input-label">
+                  <label>DESCRIÇÃO</label>
+                  <input type="text" class="input" />
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <button class="button">Salvar Transação</button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
       </div>
     </div>
   </body>
